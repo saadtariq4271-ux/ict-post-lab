@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUTECH Student Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #003366;
+            margin: 15px 0;
+        }
+        .register-btn {
+            display: inline-block;
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .register-btn:hover {
+            background-color: #002244;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            color: #003366;
+        }
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>NUTECH Student Registration Portal</h1>
+
+    <p>Welcome to the National University of Technology (NUTECH) student registration portal. Please review the registration guidelines and available seats before applying.</p>
+
+    <!-- Student Profile Picture -->
+    <img src="profile.jpeg" alt="Student Profile Picture" class="profile-img">
+
+    <h2>Registration Rules</h2>
+    <ul>
+        <li>All applicants must submit authentic educational documents during registration.</li>
+        <li>Seats are allotted strictly on a merit and availability basis.</li>
+        <li>Registration forms submitted after the deadline will not be considered.</li>
+    </ul>
+
+    <!-- Link to Register Page -->
+    <a href="form.html" class="register-btn">Register Now</a>
+
+    <h2>Available Program Seats</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Program</th>
+                <th>Seats</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Artificial Intelligence</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Software Engineering</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
